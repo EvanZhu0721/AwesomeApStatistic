@@ -1,5 +1,12 @@
 ```mermaid
-%%{init: {'theme': 'dark'}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 
+  'primaryColor': '#2d333b',
+  'primaryTextColor': '#f0f6fc',
+  'primaryBorderColor': '#444c56',
+  'lineColor': '#f0f6fc',
+  'secondaryColor': '#1c2128',
+  'tertiaryColor': '#0d1117'
+}}}%%
 graph TD
     Start[Phase 1: 模式与建模]
     Q1[数据如何分布？]

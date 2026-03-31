@@ -1,12 +1,4 @@
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 
-  'primaryColor': '#2d333b',
-  'primaryTextColor': '#f0f6fc',
-  'primaryBorderColor': '#444c56',
-  'lineColor': '#f0f6fc',
-  'secondaryColor': '#1c2128',
-  'tertiaryColor': '#0d1117'
-}}}%%
 graph TD
     Start[Phase 1: 模式与建模]
     Q1[数据如何分布？]
@@ -26,20 +18,15 @@ graph TD
         M2[Z-score]
         M3[回归分析]
     end
-
-        subgraph P1[Phase 1: 模式与建模]
-        P1Q[核心问题: 数据长什么样？]
-        P1C[关键概念: 形状/中心/离散/正态/Z-score]
-        P1I[核心直觉: 模型是给乱数据的一把尺]
-        P1Ch[教材: Ch 1,2,3,6]
-    end
     
     Q1 --> 描述
     Q2 --> 模型
     
-    style Start fill:#e3f2fd,stroke:#1976d2
-    style 描述 fill:#e8f5e9,stroke:#2e7d32
-    style 模型 fill:#fff3e0,stroke:#ef6c00
+    style Start fill:#1e3a5f,stroke:#4a9eff,stroke-width:2px,color:#ffffff
+    style 描述 fill:#1e4f3a,stroke:#4aff9e,stroke-width:2px,color:#ffffff
+    style 模型 fill:#5f3a1e,stroke:#ff9e4a,stroke-width:2px,color:#ffffff
+    style Q1 fill:#2d2d2d,stroke:#cccccc,stroke-width:2px,color:#ffffff
+    style Q2 fill:#2d2d2d,stroke:#cccccc,stroke-width:2px,color:#ffffff
 ```
 
 ---

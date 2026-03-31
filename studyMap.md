@@ -1,12 +1,4 @@
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 
-  'primaryColor': '#2d333b',
-  'primaryTextColor': '#f0f6fc',
-  'primaryBorderColor': '#444c56',
-  'lineColor': '#f0f6fc',
-  'secondaryColor': '#1c2128',
-  'tertiaryColor': '#0d1117'
-}}}%%
 graph LR
     Core[("📊 统计学核心<br/><span style='font-size:16px'>样本推测总体 + 量化不确定性</span>")]
     
@@ -35,10 +27,22 @@ graph LR
     Core --> P2
     Core --> P3
     
-    style P2 fill:#fff9c4,stroke:#fbc02d,stroke-width:4px
-    style Core fill:#e3f2fd,stroke:#1976d2,stroke-width:3px,font-size:16px
-    style P1 fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
-    style P3 fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    style Core fill:#1e3a5f,stroke:#4a9eff,stroke-width:3px,color:#ffffff
+    style P1 fill:#1e4f3a,stroke:#4aff9e,stroke-width:2px,color:#ffffff
+    style P2 fill:#5f4a1e,stroke:#ffcc4a,stroke-width:4px,color:#ffffff
+    style P3 fill:#4f1e3a,stroke:#ff4a9e,stroke-width:2px,color:#ffffff
+    style P1Q fill:#2d2d2d,stroke:#4aff9e,stroke-width:1px,color:#ffffff
+    style P1C fill:#2d2d2d,stroke:#4aff9e,stroke-width:1px,color:#ffffff
+    style P1I fill:#2d2d2d,stroke:#4aff9e,stroke-width:1px,color:#ffffff
+    style P1Ch fill:#2d2d2d,stroke:#4aff9e,stroke-width:1px,color:#ffffff
+    style P2Q fill:#2d2d2d,stroke:#ffcc4a,stroke-width:1px,color:#ffffff
+    style P2C fill:#2d2d2d,stroke:#ffcc4a,stroke-width:1px,color:#ffffff
+    style P2I fill:#2d2d2d,stroke:#ffcc4a,stroke-width:1px,color:#ffffff
+    style P2Ch fill:#2d2d2d,stroke:#ffcc4a,stroke-width:1px,color:#ffffff
+    style P3Q fill:#2d2d2d,stroke:#ff4a9e,stroke-width:1px,color:#ffffff
+    style P3C fill:#2d2d2d,stroke:#ff4a9e,stroke-width:1px,color:#ffffff
+    style P3I fill:#2d2d2d,stroke:#ff4a9e,stroke-width:1px,color:#ffffff
+    style P3Ch fill:#2d2d2d,stroke:#ff4a9e,stroke-width:1px,color:#ffffff
 ```
 # 📋 AP 统计学符号速查表
 

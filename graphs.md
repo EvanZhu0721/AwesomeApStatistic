@@ -1,4 +1,5 @@
 ```mermaid
+%%{init: {'theme': 'dark'}}%%
 flowchart TD
     H0[设立原假设 H0<br/>无罪推定]
     H1[设立备择假设 Ha<br/>有罪主张]

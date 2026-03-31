@@ -1,4 +1,5 @@
 ```mermaid
+%%{init: {'theme': 'dark'}}%%
 graph LR
     Core[("📊 统计学核心<br/><span style='font-size:16px'>样本推测总体 + 量化不确定性</span>")]
     

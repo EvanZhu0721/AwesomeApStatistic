@@ -1,4 +1,5 @@
 ```mermaid
+%%{init: {'theme': 'dark'}}%%
 graph TD
     Start[Phase 1: 模式与建模]
     Q1[数据如何分布？]

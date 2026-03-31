@@ -1,5 +1,12 @@
 ```mermaid
-%%{init: {'theme': 'dark'}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 
+  'primaryColor': '#2d333b',
+  'primaryTextColor': '#f0f6fc',
+  'primaryBorderColor': '#444c56',
+  'lineColor': '#f0f6fc',
+  'secondaryColor': '#1c2128',
+  'tertiaryColor': '#0d1117'
+}}}%%
 graph LR
     Core[("📊 统计学核心<br/><span style='font-size:16px'>样本推测总体 + 量化不确定性</span>")]
     
